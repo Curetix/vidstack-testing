@@ -5,7 +5,7 @@ import { defaultLayoutIcons, DefaultVideoLayout } from '@vidstack/react/player/l
 
 export default function Player() {
     return (
-        <MediaPlayer title="Sprite Fight" src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4" style={{width: 1280, height: 720}}>
+        <MediaPlayer title="Sprite Fight" src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4" style={{width: 1280, height: 720}} autoplay>
             <MediaProvider />
             <DefaultVideoLayout thumbnails="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/storyboard.vtt" icons={defaultLayoutIcons} />
         </MediaPlayer>
