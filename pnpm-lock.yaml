@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@vidstack/react':
-    specifier: ^1.4.1
-    version: 1.4.1(@types/react@18.2.29)(react@18.2.0)
+    specifier: ^1.4.6
+    version: 1.4.6(@types/react@18.2.29)(react@18.2.0)
   next:
     specifier: 13.5.6
     version: 13.5.6(react-dom@18.2.0)(react@18.2.0)
@@ -323,8 +323,8 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vidstack/react@1.4.1(@types/react@18.2.29)(react@18.2.0):
-    resolution: {integrity: sha512-YZQZkkn22k7ErR2cdvAarisg+JFC6jUweK81YaR/ToO+Ke1X9viU5JXkurDDbEaOqM4kdBa4MbRDL4hHcuErqQ==}
+  /@vidstack/react@1.4.6(@types/react@18.2.29)(react@18.2.0):
+    resolution: {integrity: sha512-DJaZFmvGM9TA8EcxbcgIhogO5Rhr+YwDxxW/SJklRuefLORAPizcx8194whiJjIc3esiwhH3pcY4FK0ujcGrDA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/react': ^18.0.0
